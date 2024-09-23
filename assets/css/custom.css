@@ -1,0 +1,68 @@
+body {
+    background: url("/assets/img/sky_background.svg"), #FFFFFF no-repeat center center fixed;
+    display: table;
+    height: 40%;
+    position: relative;
+    width: 100%;
+}
+
+
+.fonts-loaded {
+
+    a,
+    span,
+    p {
+        font-family: "Roboto", 'Lucida Sans', sans-serif;
+    }
+
+    h1,
+    h2,
+    h3 {
+        font-family: "Roboto", Helvetica, sans-serif;
+    }
+
+    mark {
+        font-family: 'Roboto', sans-serif;
+    }
+}
+
+
+.navbar {
+    background: none;
+    padding: 1% 0;
+    font-size: 1.2em;
+    /* min-height: 0px; */
+}
+
+.navbar-default {
+    border-style: none;
+}
+
+.navbar-default .navbar-brand {
+    color: #FFFFFF;
+}
+
+.navbar-brand {
+    padding: 0 15px 5px;
+}
+
+.navbar-brand img {
+    max-height: 150px;
+    height: 150px;
+    padding-bottom: 10%;
+    width: auto;
+}
+
+.navbar-collapse {
+    border-top: 0px;
+}
+
+.navbar-default .navbar-nav li a {
+    color: #FFFFFF;
+    font-size: 1.4em;
+}
+
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a.active {
+    color: #207295;
+}
