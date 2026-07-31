@@ -122,24 +122,6 @@ document.addEventListener('DOMContentLoaded', function(){
 });
 
 window.addEventListener('load', function(){
-    // Page Hits
-    const pageHits = document.getElementById('page-hits');
-
-    if (pageHits) {
-        const goatcounterCode = pageHits.getAttribute('usercode');
-        const requestURL = 'https://'
-            + goatcounterCode
-            + '.goatcounter.com/counter/'
-            + encodeURIComponent(location.pathname)
-            + '.json';
-
-        var resp = new XMLHttpRequest();
-        resp.open('GET', requestURL);
-        resp.onerror = function() { pageHits.innerText = "0"; };
-        resp.onload = function() { pageHits.innerText = JSON.parse(this.responseText).count; };
-        resp.send();
-    }
-
     // Highlighter
     hljs.highlightAll();
 
