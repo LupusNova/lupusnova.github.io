@@ -1,6 +1,16 @@
+# Jekyll
 _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
 vendor
 Gemfile.lock
+
+# macOS
+.DS_Store
+
+# Editeurs / outils locaux
+.obsidian/
+.idea/
+.vscode/
+*.swp
