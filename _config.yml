@@ -14,8 +14,7 @@ giscus_repo:
 giscus_repoId:
 giscus_category:
 giscus_categoryId:
-goatcounter_code:
-google_analytics:
+goatcounter_code: lupusnova
 
 # If your repo name follows the format "<user-name>.github.io", then leave the below blank.
 # Otherwise, set its value as "/<repo-name>". ex) baseurl: /myblog
